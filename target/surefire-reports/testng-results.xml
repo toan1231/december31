@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-31T00:36:12 EST" name="Surefire suite" finished-at="2022-12-31T00:36:17 EST" duration-ms="4647">
+  <suite started-at="2022-12-31T22:36:16 EST" name="Surefire suite" finished-at="2022-12-31T22:36:21 EST" duration-ms="4631">
     <groups>
     </groups>
-    <test started-at="2022-12-31T00:36:12 EST" name="Surefire test" finished-at="2022-12-31T00:36:17 EST" duration-ms="4647">
+    <test started-at="2022-12-31T22:36:16 EST" name="Surefire test" finished-at="2022-12-31T22:36:21 EST" duration-ms="4631">
       <class name="tutorialsNinjiaLogin.ToanToan">
-        <test-method is-config="true" signature="start()[pri:0, instance:tutorialsNinjiaLogin.ToanToan@12d4bf7e]" started-at="2022-12-31T00:36:13 EST" name="start" finished-at="2022-12-31T00:36:13 EST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:tutorialsNinjiaLogin.ToanToan@12d4bf7e]" started-at="2022-12-31T22:36:16 EST" name="start" finished-at="2022-12-31T22:36:16 EST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tutorialsNinjiaLogin.ToanToan@12d4bf7e]" started-at="2022-12-31T00:36:13 EST" name="setup" finished-at="2022-12-31T00:36:17 EST" duration-ms="4589" status="FAIL">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tutorialsNinjiaLogin.ToanToan@12d4bf7e]" started-at="2022-12-31T22:36:16 EST" name="setup" finished-at="2022-12-31T22:36:21 EST" duration-ms="4572" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=108.0.5359.125)
 Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
-System info: host: 'CHAUTHAI', ip: '192.168.1.124', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+System info: host: 'CHAUTHAI', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1d9d1ed8dad698fdf35f1f3db6c46ce0, findElement {using=xpath, value=//span[text()='My Account']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\chaut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53544/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1d9d1ed8dad698fdf35f1f3db6c46ce0]]>
+Command: [a12ea64eb852ddb824bf0041c2ec4020, findElement {using=xpath, value=//span[text()='My Account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\chaut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56097/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a12ea64eb852ddb824bf0041c2ec4020]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=108.0.5359.125)
 Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
-System info: host: 'CHAUTHAI', ip: '192.168.1.124', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+System info: host: 'CHAUTHAI', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1d9d1ed8dad698fdf35f1f3db6c46ce0, findElement {using=xpath, value=//span[text()='My Account']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\chaut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53544/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1d9d1ed8dad698fdf35f1f3db6c46ce0
+Command: [a12ea64eb852ddb824bf0041c2ec4020, findElement {using=xpath, value=//span[text()='My Account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\chaut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56097/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a12ea64eb852ddb824bf0041c2ec4020
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -96,7 +96,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registerWithRequiredField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tutorialsNinjiaLogin.ToanToan@12d4bf7e]" started-at="2022-12-31T00:36:17 EST" name="registerWithRequiredField" data-provider="regression" finished-at="2022-12-31T00:36:17 EST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tutorialsNinjiaLogin.ToanToan@12d4bf7e]" started-at="2022-12-31T22:36:21 EST" name="setup" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1672544181297" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tutorialsNinjiaLogin.ToanToan@12d4bf7e]" started-at="2022-12-31T22:36:21 EST" name="teardown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1672544181297" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="registerWithRequiredField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tutorialsNinjiaLogin.ToanToan@12d4bf7e]" started-at="2022-12-31T22:36:21 EST" name="registerWithRequiredField" data-provider="regression" finished-at="2022-12-31T22:36:21 EST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -110,7 +118,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
             </param>
             <param index="2">
               <value>
-                <![CDATA[66790907@gmail.com]]>
+                <![CDATA[66790oo909om997@gmail.com]]>
               </value>
             </param>
             <param index="3">
@@ -135,22 +143,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 from unknown error: web view not found
   (Session info: chrome=108.0.5359.125)
 Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
-System info: host: 'CHAUTHAI', ip: '192.168.1.124', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+System info: host: 'CHAUTHAI', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1d9d1ed8dad698fdf35f1f3db6c46ce0, findElement {using=xpath, value=//span[text()='My Account']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\chaut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53544/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1d9d1ed8dad698fdf35f1f3db6c46ce0]]>
+Command: [a12ea64eb852ddb824bf0041c2ec4020, findElement {using=xpath, value=//span[text()='My Account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\chaut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56097/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a12ea64eb852ddb824bf0041c2ec4020]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=108.0.5359.125)
 Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
-System info: host: 'CHAUTHAI', ip: '192.168.1.124', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+System info: host: 'CHAUTHAI', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1d9d1ed8dad698fdf35f1f3db6c46ce0, findElement {using=xpath, value=//span[text()='My Account']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\chaut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53544/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1d9d1ed8dad698fdf35f1f3db6c46ce0
+Command: [a12ea64eb852ddb824bf0041c2ec4020, findElement {using=xpath, value=//span[text()='My Account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\chaut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56097/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a12ea64eb852ddb824bf0041c2ec4020
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -213,7 +221,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerWithRequiredField -->
-        <test-method signature="registerWithRequiredField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tutorialsNinjiaLogin.ToanToan@12d4bf7e]" started-at="2022-12-31T00:36:17 EST" name="registerWithRequiredField" data-provider="regression" finished-at="2022-12-31T00:36:17 EST" duration-ms="0" status="SKIP">
+        <test-method signature="registerWithRequiredField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tutorialsNinjiaLogin.ToanToan@12d4bf7e]" started-at="2022-12-31T22:36:21 EST" name="registerWithRequiredField" data-provider="regression" finished-at="2022-12-31T22:36:21 EST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -227,7 +235,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
             </param>
             <param index="2">
               <value>
-                <![CDATA[966779090@gmail.com]]>
+                <![CDATA[96677oo909909m990@gmail.com]]>
               </value>
             </param>
             <param index="3">
@@ -252,22 +260,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 from unknown error: web view not found
   (Session info: chrome=108.0.5359.125)
 Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
-System info: host: 'CHAUTHAI', ip: '192.168.1.124', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+System info: host: 'CHAUTHAI', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1d9d1ed8dad698fdf35f1f3db6c46ce0, findElement {using=xpath, value=//span[text()='My Account']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\chaut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53544/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1d9d1ed8dad698fdf35f1f3db6c46ce0]]>
+Command: [a12ea64eb852ddb824bf0041c2ec4020, findElement {using=xpath, value=//span[text()='My Account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\chaut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56097/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a12ea64eb852ddb824bf0041c2ec4020]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=108.0.5359.125)
 Build info: version: '4.0.0-beta-3', revision: '5d108f9a67'
-System info: host: 'CHAUTHAI', ip: '192.168.1.124', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+System info: host: 'CHAUTHAI', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1d9d1ed8dad698fdf35f1f3db6c46ce0, findElement {using=xpath, value=//span[text()='My Account']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\chaut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53544/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1d9d1ed8dad698fdf35f1f3db6c46ce0
+Command: [a12ea64eb852ddb824bf0041c2ec4020, findElement {using=xpath, value=//span[text()='My Account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\chaut\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56097/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a12ea64eb852ddb824bf0041c2ec4020
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -330,22 +338,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerWithRequiredField -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tutorialsNinjiaLogin.ToanToan@12d4bf7e]" started-at="2022-12-31T00:36:17 EST" name="setup" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1672464977633" status="SKIP">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tutorialsNinjiaLogin.ToanToan@12d4bf7e]" started-at="2022-12-31T22:36:21 EST" name="teardown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1672544181304" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="end()[pri:0, instance:tutorialsNinjiaLogin.ToanToan@12d4bf7e]" started-at="2022-12-31T00:36:17 EST" name="end" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1672464977633" status="SKIP">
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="end()[pri:0, instance:tutorialsNinjiaLogin.ToanToan@12d4bf7e]" started-at="2022-12-31T22:36:21 EST" name="end" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1672544181306" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tutorialsNinjiaLogin.ToanToan@12d4bf7e]" started-at="2022-12-31T00:36:17 EST" name="teardown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1672464977633" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tutorialsNinjiaLogin.ToanToan@12d4bf7e]" started-at="2022-12-31T00:36:17 EST" name="teardown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1672464977633" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
       </class> <!-- tutorialsNinjiaLogin.ToanToan -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
