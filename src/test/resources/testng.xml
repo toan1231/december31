@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="tutorials">
-    <test name="Ninjia">
-
-        <classes>
-            <class name="tutorialsNinjiaLogin.ToanToan"></class>
-        </classes>
-    </test>
-</suite>
