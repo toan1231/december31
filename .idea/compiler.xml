@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="testNG1" />
+        <module name="thuroibohaykhongtuy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -6,7 +6,7 @@ public class ConfigurationReader {
     private static Properties properties;
     public static String getProperty(String fileName, String key) {
         try {
-            String path = "src/test/resources/"+ fileName;
+            String path = "src/test/resource/"+ fileName;
             FileInputStream stream = new FileInputStream(path);
             properties = new Properties();
             properties.load(stream);
